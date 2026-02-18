@@ -6,8 +6,8 @@ printMessage(String name) which prints the message "Hello:<name>".
  */
 
 
-public class MessagePrinter {
-    MessagePrinter(){  //default constructor
+public class _01_MessagePrinter {
+    _01_MessagePrinter(){  //default constructor
 
     }
 
@@ -17,8 +17,8 @@ public class MessagePrinter {
     }
 
     static void main(String[] args) {
-        MessagePrinter m1; //referenced to class MessagePrinter(memory in heap)
-        m1 = new MessagePrinter(); //declaration of object ( memory in stack)
+        _01_MessagePrinter m1; //referenced to class MessagePrinter(memory in heap)
+        m1 = new _01_MessagePrinter(); //declaration of object ( memory in stack)
 
         m1.printMessage("Harsh Kumar Tiwari");
     }

@@ -12,29 +12,29 @@ Concept:-
 1.Constructor overloading = multiple ways to initialize an object of the same class.
 
  */
-public class Employee {
+public class _03_Employee {
 
     String name;
     int id;
     String department;
 
-    Employee(){ //default constructor -- Java class automatically intialise a default constructor
+    _03_Employee(){ //default constructor -- Java class automatically intialise a default constructor
         //      if not defined explicitly
 
     }
 
-    Employee(String name){
+    _03_Employee(String name){
         this.name = name;  //this points the current object
 
     }
 
-    Employee(String name,int id){
+    _03_Employee(String name, int id){
         this.name = name;
         this.id = id;
 
     }
 
-    Employee(String name,int id,String department){
+    _03_Employee(String name, int id, String department){
         this.name = name;
         this.id = id;
         this.department = department;
@@ -65,16 +65,16 @@ public class Employee {
 
     public static void main(String[] args) {
 
-        Employee harsh = new Employee();
+        _03_Employee harsh = new _03_Employee();
         harsh.printDetails();
 
-        Employee ankit = new Employee("Ankit Samrat");
+        _03_Employee ankit = new _03_Employee("Ankit Samrat");
         ankit.printDetails();
 
-        Employee sam = new Employee("Sam",19);
+        _03_Employee sam = new _03_Employee("Sam",19);
         sam.printDetails();
 
-        Employee harsh1 = new Employee("Harsh Kumar Tiwari",16,"AI/ML");
+        _03_Employee harsh1 = new _03_Employee("Harsh Kumar Tiwari",16,"AI/ML");
         harsh1.printDetails();
     }
 }

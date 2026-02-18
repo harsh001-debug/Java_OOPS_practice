@@ -4,16 +4,16 @@ package PracticeQuestions;
       each defaulting to 1. The class should include set and get
       methods for both attributes, and a method to calculate the area of the rectangle.
 */
-class Rectangle {
+class _04_Rectangle {
     private double length;
     private double width;
 
-    Rectangle(){
+    _04_Rectangle(){
         this.length = 1;
         this.width = 1;
     }
 
-    Rectangle(double length, double width){
+    _04_Rectangle(double length, double width){
         this.length = length;
         this.width = width;
     }
@@ -31,13 +31,13 @@ class Rectangle {
     }
     public static void main(String[] args) {
 
-        Rectangle r1 = new Rectangle();
+        _04_Rectangle r1 = new _04_Rectangle();
         r1.getLength();
         r1.getWidth();
         r1.areaOfRectangle();
 
 
-        Rectangle r2 = new Rectangle(5,7);
+        _04_Rectangle r2 = new _04_Rectangle(5,7);
         r2.getLength();
         r2.getWidth();
         r2.areaOfRectangle();

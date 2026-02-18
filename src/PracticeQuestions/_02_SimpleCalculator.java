@@ -1,7 +1,5 @@
 package PracticeQuestions;
 
-import java.util.Scanner;
-
 /*
 Question 2 -> Create a class Calculator with the following methods:
  -calculateSum(int number1, int number2) to calculate the sum of two numbers.
@@ -16,7 +14,7 @@ class Calculator{
         System.out.println("Difference : " + (number1 - number2) );
     }
 }
-public class SimpleCalculator {
+public class _02_SimpleCalculator {
     public static void main(String[] args) {
 
 //        Scanner scan = new Scanner(System.in);
