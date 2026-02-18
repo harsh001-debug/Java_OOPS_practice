@@ -25,3 +25,11 @@ public class SimpleCalculator {
         c1.calculateDifference(4,9);
     }
 }
+
+/* ------------>>>>>>>>>>OUTPUT<<<<<<<<<<<<-----------------
+
+       Sum : 9
+       Difference : -5
+
+
+ */
